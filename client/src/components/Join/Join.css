@@ -1,0 +1,124 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .C {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #1A1A1D;
+  }
+  .joinOuterContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    /* background-color: #1A1A1D; */
+    background: rgb(82, 206, 130);
+    /* background: radial-gradient(circle, rgb(26, 92, 216) 0%, rgb(2, 2, 97) 100%); */
+    background: radial-gradient(rgb(19, 98, 124) 0%, rgb(12, 12, 12) 100%);
+
+
+  }
+  .joinInnerContainer {
+    width: 350px;
+    padding: 40px;
+    margin: 7px;
+  }
+  
+  .joinInput {
+    border-radius:5px;
+    padding: 10px 20px;
+    width: 100%;
+    border:none;
+
+  }
+
+  .name{
+    position: absolute;
+    float: left;
+    clear: left;
+    width:100%;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Lexend Giga', sans-serif;
+    color: rgb(241, 72, 72);
+    text-shadow: 4px 5px 3px rgba(7, 7, 7, 0.486);
+    /* text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.486); */
+    text-decoration: underline solid white;
+  }
+  
+  .header {
+    color: rgb(252, 104, 244);
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.486);
+  }
+  
+  .button {
+      color: rgb(100, 16, 16) !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: rgb(236, 234, 110);
+      padding: 10px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+      width: 100%;
+  }
+
+  
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .joinOuterContainer {
+      height: 100%;
+    }
+  
+    .joinInnerContainer {
+      width: 90%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+
+  /* .boxEffect{
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+  } */
+
+  .boxEffect{
+    box-shadow:
+  0 3.8px 2.2px rgba(1, 111, 255, 0.080),
+  0 6.7px 5.3px  rgba(1, 111, 255, 0.080),
+  0 12.5px 10px  rgba(1, 111, 255, 0.120),
+  0 20.3px 17.9px  rgba(1, 111, 255, 0.080),
+  0 10.0px 30.4px  rgba(1, 111, 255, 0.080),
+  0 100px 80px  rgba(1, 111, 255, 0.080)
+  }
+
