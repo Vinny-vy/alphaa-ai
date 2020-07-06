@@ -14,6 +14,7 @@ Components:
 5. textcointainer
 6. input.
 
+
  have been implemented ..
  
  and used a library for backend Socket.io..
